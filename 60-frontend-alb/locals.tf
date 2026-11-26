@@ -10,5 +10,6 @@ locals {
         Environment = "${var.environment}"
         Terraform   = "true"
     }
-
+    certificate_arn = data.aws_ssm_parameter.certificate_arn.value
+    vpc_id = data.aws_ssm_parameter.vpc_id.value
 }
