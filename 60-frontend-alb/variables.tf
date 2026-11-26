@@ -7,5 +7,9 @@ variable "environment" {
 }
 
 variable "zone_id" {
-    default  = "dev"
+    default = "Z07085123QJECUXR7X13I"
+}  
+
+variable "domain_name" {
+    default = "ammienugu.online"
 }
